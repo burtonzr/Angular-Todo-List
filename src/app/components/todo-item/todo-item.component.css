@@ -8,6 +8,15 @@
     cursor: pointer;
 }
 
+.checkbox-container input[type="checkbox"] {
+    display: inline-block;
+}
+
+.checkbox-container p {
+    padding-left: 10px;
+    display: inline-block;
+}
+
 .todo {
     background: #f4f4f4;
     padding: 10px;
