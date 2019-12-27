@@ -23,6 +23,6 @@
     border-bottom: 1px #ccc dotted;
 }
 
-.is-completed {
+.is-complete {
     text-decoration: line-through;
 }
