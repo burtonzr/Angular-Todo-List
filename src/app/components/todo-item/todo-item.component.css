@@ -2,19 +2,10 @@
     background: #ff0000;
     color: #fff;
     border: none;
-    padding: 5px 9px;
     border-radius: 50%;
-    float: right;
+    padding: 5px 9px;
     cursor: pointer;
-}
-
-.checkbox-container input[type="checkbox"] {
-    display: inline-block;
-}
-
-.checkbox-container p {
-    padding-left: 10px;
-    display: inline-block;
+    float: right;
 }
 
 .todo {
