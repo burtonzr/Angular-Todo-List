@@ -10,10 +10,11 @@ import { Observable } from 'rxjs';
 export class TodoService {
 
   todosUrl:string = 'https://jsonplaceholder.typicode.com/todos';
+  todosLimit = "?_limit=15";
 
   constructor(private http:HttpClient) { }
 
   getTodos():Observable<Todo[]> {
-    return this.http.get<Todo[]>(this.todosUrl); //this.todoUrl is an instance member
+    return this.http.get<Todo[]>(`${this.todosUrl}${this.todosLimit}`); //this.todoUrl is an instance member
   }
 }
